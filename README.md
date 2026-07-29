@@ -33,16 +33,16 @@
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ExeDevCentral&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ExeDevCentral&token=3HB2RSr59YErDz7xxBPWkrswqae&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ExeDevCentral&theme=radical&border_radius=10" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ExeDevCentral&theme=radical&row=2&column=4&margin-w=10&margin-h=10&no-frame=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ExeDevCentral&token=3HB2RSr59YErDz7xxBPWkrswqae&theme=radical&row=2&column=4&margin-w=10&margin-h=10&no-frame=true" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ExeDevCentral&theme=radical&bg_color=141321&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&radius=10" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ExeDevCentral&token=3HB2RSr59YErDz7xxBPWkrswqae&theme=radical&bg_color=141321&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true&radius=10" width="95%" />
 </div>
 
 ---
