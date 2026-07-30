@@ -11,21 +11,34 @@
 
 ---
 
-<h2 align="center">🛠️ Stack</h2>
+<h2 align="center">🛠️ Stack & Tecnologías</h2>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <!-- Frontend & UI -->
+  <img src="https://img.shields.io/badge/-React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/-Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/-TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/-i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" />
+  <br />
+  <!-- Backend, Database & Cloud -->
+  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
   <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Groq-FF6B6B?style=for-the-badge&logo=groq&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <br />
+  <!-- AI, Integrations & Services -->
+  <img src="https://img.shields.io/badge/-Groq_AI-FF6B6B?style=for-the-badge&logo=groq&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Resend-000000?style=for-the-badge&logo=resend&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Svix_Webhooks-6366F1?style=for-the-badge&logo=webhook&logoColor=white" />
+  <img src="https://img.shields.io/badge/-PayPal_API-003087?style=for-the-badge&logo=paypal&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
 </div>
 
 ---
