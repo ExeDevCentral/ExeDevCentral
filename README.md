@@ -3,11 +3,14 @@
 </div>
 
 ---
-🔭 Trabajando en ExePaginasWeb — SaaS/CRM multi-tenant para gestión de agencias web (React, TypeScript, Supabase)
-🌱 Profundizando en Python, seguridad de redes (CCNA) y Análisis de Sistemas
-💬 Stack: React · TypeScript · Vite · Supabase · Vercel · Python
-📫 Contacto: [tu mail o LinkedIn]
-⚡ Especialidad no pedida: debuggear condiciones de carga en flujos de auth a las 3am
+
+**Full-Stack Developer** de Rosario, Argentina.
+
+- 🔭 Trabajando en **[ExePaginasWeb](https://exepaginasweb.com)** — SaaS/CRM multi-tenant para gestión de agencias web
+- 🌱 Aprendiendo **Python**, seguridad de redes (**CCNA**) y **Análisis de Sistemas**
+- 💬 Pregúntame sobre **React · TypeScript · Supabase · Vercel**
+- ⚡ Fun fact: debuggeo condiciones de carga en flujos de auth a las 3am
+
 ---
 
 <h2 align="center">🛠️ Stack & Tecnologías</h2>
