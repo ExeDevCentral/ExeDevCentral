@@ -3,11 +3,11 @@
 </div>
 
 ---
-
-🔭 **Actualmente trabajando en** [ExePaginasWeb](https://exepaginasweb.com) — SaaS/CRM para mi agencia web  
-🌱 **Aprendiendo** Python, Linux/Ciberseguridad y Análisis de Sistemas  
-💬 **Preguntame sobre** React, Supabase, Vercel, o cómo debuggear un webhook a las 3am  
-⚡ **Fun fact:** Sobreviví a un OAuth loop infinito y viví para contarlo  
+🔭 Trabajando en ExePaginasWeb — SaaS/CRM multi-tenant para gestión de agencias web (React, TypeScript, Supabase)
+🌱 Profundizando en Python, seguridad de redes (CCNA) y Análisis de Sistemas
+💬 Stack: React · TypeScript · Vite · Supabase · Vercel · Python
+📫 Contacto: [tu mail o LinkedIn]
+⚡ Especialidad no pedida: debuggear condiciones de carga en flujos de auth a las 3am
 
 ---
 
