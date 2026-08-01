@@ -8,7 +8,6 @@
 💬 Stack: React · TypeScript · Vite · Supabase · Vercel · Python
 📫 Contacto: [tu mail o LinkedIn]
 ⚡ Especialidad no pedida: debuggear condiciones de carga en flujos de auth a las 3am
-
 ---
 
 <h2 align="center">🛠️ Stack & Tecnologías</h2>
