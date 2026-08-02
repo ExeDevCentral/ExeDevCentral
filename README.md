@@ -15,31 +15,37 @@
 
 <h2 align="center">🛠️ Stack & Tecnologías</h2>
 
-<!-- Íconos animados (techstack-generator) -->
 <div align="center">
-  <img src="https://techstack-generator.vercel.app/react-icon.svg?size=110" alt="React" />
-  <img src="https://techstack-generator.vercel.app/ts-icon.svg?size=110" alt="TypeScript" />
-  <img src="https://techstack-generator.vercel.app/python-icon.svg?size=110" alt="Python" />
-</div>
 
-<!-- Frontend & UI (estáticos, skillicons.dev) -->
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vite,tailwind,threejs,vercel,nodejs,git,linux,figma,supabase,postgres" alt="Stack" />
-</div>
+<h4>💻 Lenguajes</h4>
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="65" alt="TypeScript" />
+<img src="https://techstack-generator.vercel.app/js-icon.svg" width="70" alt="JavaScript" />
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="50" alt="Python" />
 
-<br />
+<h4>🌐 Frontend</h4>
+<img src="https://techstack-generator.vercel.app/react-icon.svg" width="60" alt="React" />
+<img src="https://skillicons.dev/icons?i=vite,tailwind,threejs" width="150" />
 
-<!-- Integraciones & Servicios (shields.io) -->
-<div align="center">
-  <img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/-TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/-i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Groq_AI-FF6B6B?style=for-the-badge&logo=groq&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Resend-000000?style=for-the-badge&logo=resend&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Svix_Webhooks-6366F1?style=for-the-badge&logo=webhook&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PayPal_API-003087?style=for-the-badge&logo=paypal&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
+<h4>⚙️ Backend & Cloud</h4>
+<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres,vercel" width="200" />
+
+<h4>🔧 Tools</h4>
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="60" alt="Docker" />
+<img src="https://skillicons.dev/icons?i=git,linux,figma&theme=dark" width="150" />
+
+<br /><br />
+
+<!-- Sin versión animada disponible — se mantienen como badges -->
+<img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/-TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
+<img src="https://img.shields.io/badge/-i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white" />
+<img src="https://img.shields.io/badge/-Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" />
+<img src="https://img.shields.io/badge/-Groq_AI-FF6B6B?style=for-the-badge&logo=groq&logoColor=white" />
+<img src="https://img.shields.io/badge/-Resend-000000?style=for-the-badge&logo=resend&logoColor=white" />
+<img src="https://img.shields.io/badge/-Svix_Webhooks-6366F1?style=for-the-badge&logo=webhook&logoColor=white" />
+<img src="https://img.shields.io/badge/-PayPal_API-003087?style=for-the-badge&logo=paypal&logoColor=white" />
+<img src="https://img.shields.io/badge/-Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
+
 </div>
 
 ---
