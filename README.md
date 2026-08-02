@@ -27,15 +27,19 @@
 <img src="https://skillicons.dev/icons?i=vite,tailwind,threejs" width="150" />
 
 <h4>⚙️ Backend & Cloud</h4>
-<img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres,vercel" width="200" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,postgres,vercel" width="250" />
 
 <h4>🔧 Tools</h4>
 <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="60" alt="Docker" />
-<img src="https://skillicons.dev/icons?i=git,linux,figma&theme=dark" width="150" />
+<img src="https://skillicons.dev/icons?i=git,linux,figma,vitest&theme=dark" width="200" />
 
 <br /><br />
 
 <!-- Sin versión animada disponible — se mantienen como badges -->
+<img src="https://img.shields.io/badge/-React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" />
+<img src="https://img.shields.io/badge/-React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white" />
+<img src="https://img.shields.io/badge/-Sonner-111111?style=for-the-badge&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/-Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
 <img src="https://img.shields.io/badge/-TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
 <img src="https://img.shields.io/badge/-i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white" />
