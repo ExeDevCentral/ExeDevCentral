@@ -15,27 +15,26 @@
 
 <h2 align="center">🛠️ Stack & Tecnologías</h2>
 
+<!-- Íconos animados (techstack-generator) -->
 <div align="center">
-  <!-- Frontend & UI -->
-  <img src="https://img.shields.io/badge/-React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+  <img src="https://techstack-generator.vercel.app/react-icon.svg?size=110" alt="React" />
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg?size=110" alt="TypeScript" />
+  <img src="https://techstack-generator.vercel.app/python-icon.svg?size=110" alt="Python" />
+</div>
+
+<!-- Frontend & UI (estáticos, skillicons.dev) -->
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vite,tailwind,threejs,vercel,nodejs,git,linux,figma,supabase,postgres" alt="Stack" />
+</div>
+
+<br />
+
+<!-- Integraciones & Servicios (shields.io) -->
+<div align="center">
   <img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
   <img src="https://img.shields.io/badge/-TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
   <img src="https://img.shields.io/badge/-i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white" />
   <img src="https://img.shields.io/badge/-Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" />
-  <br />
-  <!-- Backend, Database & Cloud -->
-  <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <br />
-  <!-- AI, Integrations & Services -->
   <img src="https://img.shields.io/badge/-Groq_AI-FF6B6B?style=for-the-badge&logo=groq&logoColor=white" />
   <img src="https://img.shields.io/badge/-Resend-000000?style=for-the-badge&logo=resend&logoColor=white" />
   <img src="https://img.shields.io/badge/-Svix_Webhooks-6366F1?style=for-the-badge&logo=webhook&logoColor=white" />
@@ -48,16 +47,16 @@
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ExeDevCentral&show_icons=true&theme=radical&border_radius=10&token=3HB2RSr59YErDz7xxBPWkrswqae" />
-  <img height="180em" src="https://github-readme-streak-stats-eight.vercel.app/?user=ExeDevCentral&theme=radical&border_radius=10&token=3HB2RSr59YErDz7xxBPWkrswqae" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ExeDevCentral&show_icons=true&theme=radical&border_radius=10" />
+  <img height="180em" src="https://github-readme-streak-stats-eight.vercel.app/?user=ExeDevCentral&theme=radical&border_radius=10" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ExeDevCentral&theme=radical&row=2&column=3&margin-w=15&margin-h=15&token=3HB2RSr59YErDz7xxBPWkrswqae" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ExeDevCentral&theme=radical&row=2&column=3&margin-w=15&margin-h=15" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ExeDevCentral&theme=react-dark&hide_border=true&area=true&token=3HB2RSr59YErDz7xxBPWkrswqae" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ExeDevCentral&theme=react-dark&hide_border=true&area=true" width="95%" />
 </div>
 
 ---
