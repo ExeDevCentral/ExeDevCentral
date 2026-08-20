@@ -57,16 +57,14 @@
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ExeDevCentral&show_icons=true&theme=radical&border_radius=10" />
-  <img height="180em" src="https://github-readme-streak-stats-eight.vercel.app/?user=ExeDevCentral&theme=radical&border_radius=10" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ExeDevCentral&show_icons=true&theme=radical&border_radius=10" />
+  <img height="180em" src="https://streak-stats.demolab.com/?user=ExeDevCentral&theme=radical&border_radius=10" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ExeDevCentral&theme=radical&row=2&column=3&margin-w=15&margin-h=15" />
-</div>
+<br />
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ExeDevCentral&theme=react-dark&hide_border=true&area=true" width="95%" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ExeDevCentral&layout=compact&theme=radical&border_radius=10" />
 </div>
 
 ---
