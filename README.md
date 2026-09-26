@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1500&color=F8FAFC&center=true&vCenter=true&random=false&width=860&height=42&lines=Exequiel+Echevarria+%C2%B7+Software+Engineer+%26+SaaS+Builder;Sistemas+Web+Escalables+%C2%B7+Arquitectura+Cloud+B2B;Next.js+16+%C2%B7+React+19+%C2%B7+TypeScript+%C2%B7+Supabase;Agentes+de+IA+Aut%C3%B3nomos+%C2%B7+Ciberseguridad+Defensiva;Desarrollo+de+Alto+Rendimiento+para+Empresas" alt="Exequiel Echevarria — Software Engineer" />
+  <img src="assets/typing-header.svg" alt="Exequiel Echevarria — Software Engineer & SaaS Builder" />
 </div>
 
 ---
