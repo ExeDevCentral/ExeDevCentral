@@ -1,0 +1,366 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="100%" height="100%">
+  <defs>
+    <!-- Filtros de resplandor neón -->
+    <filter id="neonGlowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="neonGlowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Gradientes Neón -->
+    <linearGradient id="cardBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="cardBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+
+    <linearGradient id="rowBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+
+    <!-- Chip Gradients -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Animación sutil de pulso / destello neón -->
+    <style>
+      .pulse-cyan {
+        animation: pulseCyan 3s ease-in-out infinite alternate;
+      }
+      .pulse-purple {
+        animation: pulsePurple 4s ease-in-out infinite alternate;
+      }
+      .sparkle {
+        animation: sparkleAnim 2.5s ease-in-out infinite;
+      }
+      @keyframes pulseCyan {
+        0% { opacity: 0.4; }
+        100% { opacity: 0.95; filter: drop-shadow(0 0 10px #00f0ff); }
+      }
+      @keyframes pulsePurple {
+        0% { opacity: 0.3; }
+        100% { opacity: 0.9; filter: drop-shadow(0 0 12px #a855f7); }
+      }
+      @keyframes sparkleAnim {
+        0%, 100% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      }
+      .chip-text {
+        font-size: 11.5px;
+        font-weight: 600;
+        fill: #f1f5f9;
+        letter-spacing: 0.2px;
+      }
+      .cat-title {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        fill: #38bdf8;
+      }
+    </style>
+  </defs>
+
+  <!-- Aura atmosférica exterior detrás de la tarjeta -->
+  <rect x="20" y="20" width="840" height="440" rx="20" fill="none" stroke="#00f0ff" stroke-width="3" opacity="0.15" filter="url(#neonGlowCyan)" />
+  <rect x="20" y="20" width="840" height="440" rx="20" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.12" filter="url(#neonGlowPurple)" />
+
+  <!-- Tarjeta Principal con Relieve de Borde Neón -->
+  <rect x="20" y="20" width="840" height="440" rx="16" fill="url(#cardBgGrad)" stroke="url(#cardBorderGrad)" stroke-width="1.8" />
+
+  <!-- Destellos en las 4 esquinas (Cyber Accents) -->
+  <path d="M 28 44 L 28 28 L 44 28" fill="none" stroke="#00f0ff" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 852 44 L 852 28 L 836 28" fill="none" stroke="#00f0ff" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 28 436 L 28 452 L 44 452" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 852 436 L 852 452 L 836 452" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Cabecera de la Tarjeta -->
+  <g transform="translate(44, 48)">
+    <circle cx="6" cy="6" r="4.5" fill="#00f0ff" class="pulse-cyan" />
+    <text x="20" y="10" fill="#94a3b8" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.5">EXE.CORE // STACK &amp; TECNOLOGÍAS ACTIVAS</text>
+
+    <!-- Indicador de Status Neon -->
+    <rect x="670" y="-3" width="120" height="20" rx="10" fill="#0f172a" stroke="#22d3ee" stroke-width="1" />
+    <circle cx="682" cy="7" r="3" fill="#22c55e" />
+    <text x="693" y="11" fill="#e2e8f0" class="mono" font-size="9" font-weight="700" letter-spacing="0.5">SYS.PRODUCTION</text>
+  </g>
+
+  <!-- Línea divisoria superior -->
+  <line x1="44" y1="78" x2="836" y2="78" stroke="url(#rowBorderGrad)" stroke-width="1" />
+
+  <!-- ========================================================
+       FILA 1: LENGUAJES
+       ======================================================== -->
+  <g transform="translate(44, 94)">
+    <!-- Etiqueta Categoría -->
+    <rect x="0" y="4" width="135" height="36" rx="8" fill="#0f172a" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="22" r="3" fill="#00f0ff" />
+    <text x="28" y="26" class="cat-title" fill="#00f0ff">LENGUAJES</text>
+
+    <!-- Chips con relieve -->
+    <!-- TypeScript -->
+    <g transform="translate(150, 4)">
+      <rect width="125" height="36" rx="8" fill="url(#chipBg)" stroke="#3178c6" stroke-width="1.2" />
+      <rect x="10" y="9" width="18" height="18" rx="4" fill="#3178c6" />
+      <text x="14" y="23" fill="#fff" font-size="11" font-weight="bold" class="mono">TS</text>
+      <text x="36" y="23" class="chip-text">TypeScript</text>
+    </g>
+
+    <!-- JavaScript -->
+    <g transform="translate(285, 4)">
+      <rect width="120" height="36" rx="8" fill="url(#chipBg)" stroke="#eab308" stroke-width="1.2" />
+      <rect x="10" y="9" width="18" height="18" rx="4" fill="#facc15" />
+      <text x="14" y="23" fill="#000" font-size="11" font-weight="bold" class="mono">JS</text>
+      <text x="36" y="23" class="chip-text">JavaScript</text>
+    </g>
+
+    <!-- Python -->
+    <g transform="translate(415, 4)">
+      <rect width="105" height="36" rx="8" fill="url(#chipBg)" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+      <text x="16" y="22" fill="#38bdf8" font-size="10" font-weight="bold" class="mono">PY</text>
+      <text x="36" y="23" class="chip-text">Python</text>
+    </g>
+
+    <!-- HTML5 / CSS3 -->
+    <g transform="translate(530, 4)">
+      <rect width="125" height="36" rx="8" fill="url(#chipBg)" stroke="#f97316" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1" />
+      <text x="15" y="22" fill="#f97316" font-size="9" font-weight="bold" class="mono">&lt;/&gt;</text>
+      <text x="36" y="23" class="chip-text">HTML5 / CSS3</text>
+    </g>
+  </g>
+
+  <!-- Separador -->
+  <line x1="44" y1="150" x2="836" y2="150" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3,3" />
+
+  <!-- ========================================================
+       FILA 2: FRONTEND & FRAMEWORKS
+       ======================================================== -->
+  <g transform="translate(44, 166)">
+    <!-- Etiqueta Categoría -->
+    <rect x="0" y="4" width="135" height="36" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="22" r="3" fill="#38bdf8" />
+    <text x="28" y="26" class="cat-title" fill="#38bdf8">FRONTEND</text>
+
+    <!-- Next.js 16 (Relieve Neón Blanco/Cyan) -->
+    <g transform="translate(150, 4)">
+      <rect width="125" height="36" rx="8" fill="#000000" stroke="#ffffff" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="8" fill="#111" stroke="#fff" stroke-width="1" />
+      <text x="17" y="22" fill="#fff" font-size="10" font-weight="bold" class="mono">N</text>
+      <text x="36" y="23" class="chip-text">Next.js 16</text>
+    </g>
+
+    <!-- React 19 -->
+    <g transform="translate(285, 4)">
+      <rect width="110" height="36" rx="8" fill="url(#chipBg)" stroke="#06b6d4" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1" />
+      <text x="16" y="22" fill="#06b6d4" font-size="10" font-weight="bold">⚛</text>
+      <text x="36" y="23" class="chip-text">React 19</text>
+    </g>
+
+    <!-- Tailwind CSS -->
+    <g transform="translate(405, 4)">
+      <rect width="125" height="36" rx="8" fill="url(#chipBg)" stroke="#0ea5e9" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#0ea5e9" fill-opacity="0.2" stroke="#0ea5e9" stroke-width="1" />
+      <text x="15" y="22" fill="#0ea5e9" font-size="10" font-weight="bold">≈</text>
+      <text x="36" y="23" class="chip-text">Tailwind CSS</text>
+    </g>
+
+    <!-- Three.js (3D) -->
+    <g transform="translate(540, 4)">
+      <rect width="105" height="36" rx="8" fill="url(#chipBg)" stroke="#a855f7" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#a855f7" fill-opacity="0.2" stroke="#a855f7" stroke-width="1" />
+      <text x="16" y="22" fill="#a855f7" font-size="9" font-weight="bold" class="mono">3D</text>
+      <text x="36" y="23" class="chip-text">Three.js</text>
+    </g>
+
+    <!-- Vite -->
+    <g transform="translate(655, 4)">
+      <rect width="85" height="36" rx="8" fill="url(#chipBg)" stroke="#8b5cf6" stroke-width="1.2" />
+      <text x="15" y="23" fill="#a855f7" font-size="11">⚡</text>
+      <text x="32" y="23" class="chip-text">Vite</text>
+    </g>
+  </g>
+
+  <!-- Separador -->
+  <line x1="44" y1="222" x2="836" y2="222" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3,3" />
+
+  <!-- ========================================================
+       FILA 3: BACKEND & DATABASE
+       ======================================================== -->
+  <g transform="translate(44, 238)">
+    <!-- Etiqueta Categoría -->
+    <rect x="0" y="4" width="135" height="36" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="22" r="3" fill="#10b981" />
+    <text x="28" y="26" class="cat-title" fill="#10b981">BACKEND</text>
+
+    <!-- Node.js -->
+    <g transform="translate(150, 4)">
+      <rect width="110" height="36" rx="8" fill="url(#chipBg)" stroke="#22c55e" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#22c55e" fill-opacity="0.2" stroke="#22c55e" stroke-width="1" />
+      <text x="16" y="22" fill="#22c55e" font-size="9" font-weight="bold" class="mono">JS</text>
+      <text x="36" y="23" class="chip-text">Node.js</text>
+    </g>
+
+    <!-- Supabase (Relieve Neón Esmeralda) -->
+    <g transform="translate(270, 4)">
+      <rect width="125" height="36" rx="8" fill="url(#chipBg)" stroke="#10b981" stroke-width="1.4" filter="url(#neonGlowCyan)" opacity="0.9" />
+      <rect width="125" height="36" rx="8" fill="url(#chipBg)" stroke="#10b981" stroke-width="1.4" />
+      <path d="M 21 11 L 14 20 L 20 20 L 19 25 L 26 16 L 20 16 Z" fill="#10b981" />
+      <text x="36" y="23" class="chip-text" fill="#34d399">Supabase</text>
+    </g>
+
+    <!-- PostgreSQL -->
+    <g transform="translate(405, 4)">
+      <rect width="125" height="36" rx="8" fill="url(#chipBg)" stroke="#3b82f6" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1" />
+      <text x="16" y="22" fill="#3b82f6" font-size="9" font-weight="bold" class="mono">PG</text>
+      <text x="36" y="23" class="chip-text">PostgreSQL</text>
+    </g>
+
+    <!-- Express -->
+    <g transform="translate(540, 4)">
+      <rect width="105" height="36" rx="8" fill="url(#chipBg)" stroke="#94a3b8" stroke-width="1.2" />
+      <text x="14" y="22" fill="#cbd5e1" font-size="9" font-weight="bold" class="mono">ex</text>
+      <text x="34" y="23" class="chip-text">Express</text>
+    </g>
+
+    <!-- Vercel Edge -->
+    <g transform="translate(655, 4)">
+      <rect width="120" height="36" rx="8" fill="#000" stroke="#64748b" stroke-width="1.2" />
+      <polygon points="20,13 14,24 26,24" fill="#fff" />
+      <text x="34" y="23" class="chip-text">Vercel Edge</text>
+    </g>
+  </g>
+
+  <!-- Separador -->
+  <line x1="44" y1="294" x2="836" y2="294" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3,3" />
+
+  <!-- ========================================================
+       FILA 4: AI & AUTOMATIZACIÓN
+       ======================================================== -->
+  <g transform="translate(44, 310)">
+    <!-- Etiqueta Categoría -->
+    <rect x="0" y="4" width="135" height="36" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="22" r="3" fill="#a855f7" />
+    <text x="28" y="26" class="cat-title" fill="#a855f7">AI &amp; LIBRARIES</text>
+
+    <!-- Vercel AI SDK -->
+    <g transform="translate(150, 4)">
+      <rect width="140" height="36" rx="8" fill="url(#chipBg)" stroke="#f43f5e" stroke-width="1.2" />
+      <polygon points="20,13 14,24 26,24" fill="#f43f5e" />
+      <text x="36" y="23" class="chip-text">Vercel AI SDK</text>
+    </g>
+
+    <!-- Groq AI -->
+    <g transform="translate(300, 4)">
+      <rect width="115" height="36" rx="8" fill="url(#chipBg)" stroke="#f97316" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1" />
+      <text x="16" y="22" fill="#f97316" font-size="9" font-weight="bold" class="mono">⚡</text>
+      <text x="36" y="23" class="chip-text">Groq Cloud</text>
+    </g>
+
+    <!-- Framer Motion -->
+    <g transform="translate(425, 4)">
+      <rect width="135" height="36" rx="8" fill="url(#chipBg)" stroke="#3b82f6" stroke-width="1.2" />
+      <polygon points="16,12 24,12 20,18" fill="#3b82f6" />
+      <polygon points="16,18 24,18 20,24" fill="#60a5fa" />
+      <text x="34" y="23" class="chip-text">Framer Motion</text>
+    </g>
+
+    <!-- TanStack Query -->
+    <g transform="translate(570, 4)">
+      <rect width="145" height="36" rx="8" fill="url(#chipBg)" stroke="#ef4444" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-width="1" />
+      <text x="16" y="22" fill="#ef4444" font-size="9" font-weight="bold" class="mono">TQ</text>
+      <text x="34" y="23" class="chip-text">TanStack Query</text>
+    </g>
+  </g>
+
+  <!-- Separador -->
+  <line x1="44" y1="366" x2="836" y2="366" stroke="#1e293b" stroke-width="0.8" stroke-dasharray="3,3" />
+
+  <!-- ========================================================
+       FILA 5: DEVOPS & HERRAMIENTAS
+       ======================================================== -->
+  <g transform="translate(44, 382)">
+    <!-- Etiqueta Categoría -->
+    <rect x="0" y="4" width="135" height="36" rx="8" fill="#0f172a" stroke="#eab308" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="16" cy="22" r="3" fill="#eab308" />
+    <text x="28" y="26" class="cat-title" fill="#eab308">DEVOPS &amp; TOOLS</text>
+
+    <!-- Docker -->
+    <g transform="translate(150, 4)">
+      <rect width="105" height="36" rx="8" fill="url(#chipBg)" stroke="#0284c7" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#0284c7" fill-opacity="0.2" stroke="#0284c7" stroke-width="1" />
+      <text x="15" y="22" fill="#38bdf8" font-size="9" font-weight="bold" class="mono">DK</text>
+      <text x="36" y="23" class="chip-text">Docker</text>
+    </g>
+
+    <!-- Git & GitHub -->
+    <g transform="translate(265, 4)">
+      <rect width="115" height="36" rx="8" fill="url(#chipBg)" stroke="#f97316" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1" />
+      <text x="15" y="22" fill="#f97316" font-size="9" font-weight="bold" class="mono">GIT</text>
+      <text x="36" y="23" class="chip-text">Git / CI-CD</text>
+    </g>
+
+    <!-- Linux -->
+    <g transform="translate(390, 4)">
+      <rect width="95" height="36" rx="8" fill="url(#chipBg)" stroke="#eab308" stroke-width="1.2" />
+      <text x="14" y="23" fill="#facc15" font-size="12">🐧</text>
+      <text x="34" y="23" class="chip-text">Linux</text>
+    </g>
+
+    <!-- Figma -->
+    <g transform="translate(495, 4)">
+      <rect width="95" height="36" rx="8" fill="url(#chipBg)" stroke="#a855f7" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#a855f7" fill-opacity="0.2" stroke="#a855f7" stroke-width="1" />
+      <text x="16" y="22" fill="#c084fc" font-size="9" font-weight="bold" class="mono">FG</text>
+      <text x="34" y="23" class="chip-text">Figma</text>
+    </g>
+
+    <!-- Vitest -->
+    <g transform="translate(600, 4)">
+      <rect width="95" height="36" rx="8" fill="url(#chipBg)" stroke="#84cc16" stroke-width="1.2" />
+      <circle cx="20" cy="18" r="7" fill="#84cc16" fill-opacity="0.2" stroke="#84cc16" stroke-width="1" />
+      <text x="16" y="22" fill="#84cc16" font-size="9" font-weight="bold" class="mono">VT</text>
+      <text x="34" y="23" class="chip-text">Vitest</text>
+    </g>
+
+    <!-- Sentry -->
+    <g transform="translate(705, 4)">
+      <rect width="95" height="36" rx="8" fill="url(#chipBg)" stroke="#818cf8" stroke-width="1.2" />
+      <text x="14" y="22" fill="#818cf8" font-size="9" font-weight="bold" class="mono">SN</text>
+      <text x="34" y="23" class="chip-text">Sentry</text>
+    </g>
+  </g>
+
+</svg>
