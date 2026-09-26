@@ -1,15 +1,18 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Special+Gothic+Expanded+One&size=30&pause=800&color=F7F7F7&center=true&vCenter=true&random=false&width=600&lines=Hola%2C+soy+Exequiel+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;React+%7C+TypeScript+%7C+Supabase;Aprendiendo+Python+y+Ciberseguridad" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1500&color=F8FAFC&center=true&vCenter=true&random=false&width=860&height=42&lines=Exequiel+Echevarria+%C2%B7+Software+Engineer+%26+SaaS+Builder;Sistemas+Web+Escalables+%C2%B7+Arquitectura+Cloud+B2B;Next.js+16+%C2%B7+React+19+%C2%B7+TypeScript+%C2%B7+Supabase;Agentes+de+IA+Aut%C3%B3nomos+%C2%B7+Ciberseguridad+Defensiva;Desarrollo+de+Alto+Rendimiento+para+Empresas" alt="Exequiel Echevarria — Software Engineer" />
 </div>
 
 ---
 
-**Full-Stack Developer** de Rosario, Argentina.
+### 💼 Propuesta de Valor & Soluciones para Empresas
 
-- 🔭 Trabajando en **[ExePaginasWeb](https://exepaginasweb.com)** — SaaS/CRM multi-tenant para gestión de agencias web
-- 🌱 Aprendiendo **Python**, seguridad de redes (**CCNA**) y **Análisis de Sistemas**
-- 💬 Pregúntame sobre **React · TypeScript · Supabase · Vercel**
-- ⚡ Fun fact: debuggeo condiciones de carga en flujos de auth a las 3am
+Ingeniero de software y creador de plataformas digitales enfocado en **arquitecturas web escalables, sistemas SaaS multi-tenant y aplicaciones de alto rendimiento**. Diseño y despliego soluciones de software completas que automatizan procesos críticos, resuelven cuellos de botella operativos y maximizan la rentabilidad corporativa.
+
+- 🏢 **Sistemas SaaS & Cloud a Medida:** Creación de plataformas B2B de principio a fin utilizando **Next.js 16**, **TypeScript**, **React 19** y bases de datos **PostgreSQL** con políticas **Row Level Security (RLS)** de estricto aislamiento por cliente (ej. [ExePaginasWeb](https://exepaginasweb.com) y *SportManager*).
+- ⚡ **Performance de Élite & Core Web Vitals:** Optimización de infraestructura frontend y edge para lograr cargas ultrarrápidas (LCP sub-1.5s, 0 CLS, code-splitting inteligente y 60-120 FPS).
+- 🤖 **Agentes de IA & Automatización de Flujos:** Integración de modelos LLM con **Groq Cloud LPU** y **Vercel AI SDK**, chatbots inteligentes con acceso a bases de datos y extracción automatizada de documentos (*OCR & Bilingual NLP* en Bilex).
+- 🛡️ **Ciberseguridad & Resiliencia:** Enfoque defensivo con monitoreo de bajo nivel, auditoría de eventos en tiempo real, redes gestionadas (CCNA) y protección de datos corporativos (desarrollo de *OwlEyeEngine*).
+- 🚀 **Propiedad Total y Sin Comisiones:** Entrega de código 100% propietario con control absoluto para la empresa, evitando comisiones cautivas y limitaciones de plataformas cerradas.
 
 ---
 
@@ -48,7 +51,7 @@
 
 ---
 
-<h2 align="center">📫 Contacto</h2>
+<h2 align="center">📫 Contacto Profesional</h2>
 
 <div align="center">
   <a href="https://exepaginasweb.com">
