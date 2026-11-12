@@ -6,7 +6,7 @@
   <a href="https://exepaginasweb.com" target="_blank">
     <img src="https://img.shields.io/badge/Production_SaaS-ExePaginasWeb-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="https://cvechevarria.vercel.app" target="_blank">
+  <a href="https://cv-xi-swart.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Interactive_Curriculum-Verified_CV-10B981?style=for-the-badge&logo=react&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/exequiel-echevarria/" target="_blank">
@@ -19,15 +19,16 @@
 
 ---
 
-### 🏛️ Executive Value Proposition & Systems Architecture
+### 🏛️ Executive Value Proposition & Solutions Architecture
 
-Systems architect and software engineer specializing in **fault-tolerant web architectures, multi-tenant SaaS engines, and low-latency distributed telemetry**. I design, formalize, and deploy production software ecosystems that automate critical operational paths, eliminate structural throughput bottlenecks, and maximize transactional yield.
+Full-Stack Solutions Engineer & Software Architect specializing in **fault-tolerant web architectures, high-throughput automation engines, and distributed systems**. I transform operational maturity and technical rigor into software that solves expensive business bottlenecks, cuts operational overhead, and delivers immediate ROI.
 
-- 🏢 **Enterprise SaaS & Tailored Cloud Platforms:** End-to-end B2B infrastructure using **Next.js 16**, **TypeScript**, **React 19**, and **PostgreSQL** engines hardened with strict **Row Level Security (RLS)** tenant boundary isolation (e.g., [ExePaginasWeb](https://exepaginasweb.com) and *SportManager PlayHub*).
-- ⚡ **Sub-Millisecond Latency & Core Web Vitals:** Deep optimization across edge networks and browser runtimes achieving sub-1.2s Largest Contentful Paint (LCP), zero Cumulative Layout Shift (CLS), and 60–120 FPS hardware-accelerated rendering.
-- 🤖 **Autonomous AI Agents & Pipeline Orchestration:** Low-latency generative model routing via **Vercel AI SDK** and **Groq LPU clusters**, coupled with specialized document extraction (*Client-Side WebAssembly OCR & Trigram NLP* in *Bilex*).
-- 🛡️ **Cyberdefense & Low-Level Observability:** Defensive kernel-level systems monitoring, real-time audit journals, Cisco-certified networking (CCNA), and automated heuristic threat detection (*OwlEyeEngine*).
-- 🚀 **Sovereign Architectural Ownership:** Pure proprietary codebases granting zero-licensing lock-in, eliminating third-party platform rent extraction and proprietary dependency drift.
+- 🏢 **Enterprise SaaS & Tailored Cloud Platforms:** End-to-end B2B infrastructure using **Next.js 16/React 19**, **TypeScript**, and **PostgreSQL** hardened with strict **Row Level Security (RLS)** and RBAC tenant isolation (e.g., [ExePaginasWeb](https://exepaginasweb.com), *SportManager PlayHub*, and *MultiTiendas*).
+- ⚡ **High-Throughput Automation & AI Pipelines:** Low-level and batch processing engines in **C++** and **Python** (*OwlEyeEngine*), cutting manual data review workloads from **~5 hours to unattended minutes** with applied AI models.
+- 📐 **Rigorous Formal Verification & CAS Engines:** Symbolic computation and axiomatic verification architectures (*Polymath Zero*) using **Astro 5**, **React 19**, strict TypeScript, and **KaTeX** math kernels.
+- 📉 **Traceability & Error Eradication:** Production tracking pipelines that eliminated critical inventory discrepancies and **reduced reconciliation errors by 35%**.
+- 🛡️ **Cyberdefense & Networking Observability:** Kernel-level systems monitoring, real-time audit journals, **Cisco-certified networking (CCNA Basics - Score 86/100, 2026)**, and heuristic threat detection.
+- 🚀 **Sovereign Architectural Ownership:** Pure proprietary codebases across **+30 auditable GitHub repositories**, granting zero vendor lock-in and deterministic execution.
 
 ---
 
@@ -45,6 +46,8 @@ Systems architect and software engineer specializing in **fault-tolerant web arc
 
 | System | Domain | Architectural Invariants & Technical Specifications |
 | :--- | :--- | :--- |
+| [**OwlEyeEngine**](https://github.com/ExeDevCentral/OwlEyeEngine) | High-Performance Engine | C++ & Python batch automation pipeline with AI classification, reducing ~5 hours of manual work to minutes |
+| [**Polymath-Zero**](https://github.com/ExeDevCentral/polymath-zero) | Formal Systems Workbench | Astro 5, React 19, KaTeX LaTeX rendering, simulated CAS REPL kernel (SymPy style), and reactive SVG vector plane |
 | [**portalNoticias**](https://github.com/ExeDevCentral/portalNoticias) | Real-Time News Engine | Next.js 15 SSR, embedded SQLite WAL persistence, Server-Sent Events (SSE) live telemetry, 45 automated tests |
 | [**Bilex**](https://github.com/ExeDevCentral/Bilex) | Bilingual Ingestion & OCR | WebAssembly Tesseract OCR pipeline, client n-gram Markov language identification, dual-stream AST scroll alignment |
 | [**RESTOai**](https://github.com/ExeDevCentral/RESTOai) | Gastronomic POS Kernel | Zero-float 64-bit integer monetary arithmetic, FEFO inventory decay, blind "Z" reconciliation, 67 Vitest invariants |
