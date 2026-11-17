@@ -62,14 +62,14 @@ Full-Stack Solutions Engineer & Software Architect specializing in **fault-toler
 <h2 align="center">📊 Live GitHub Telemetry & Stats</h2>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ExeDevCentral&show_icons=true&theme=radical&border_radius=10" />
-  <img height="180em" src="https://streak-stats.demolab.com/?user=ExeDevCentral&theme=radical&border_radius=10" />
+  <img height="180em" src="assets/github-stats.svg" alt="ExeDevCentral GitHub Stats" />
+  <img height="180em" src="https://streak-stats.demolab.com/?user=ExeDevCentral&theme=radical&border_radius=10" alt="ExeDevCentral Streak Stats" />
 </div>
 
 <br />
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ExeDevCentral&layout=compact&theme=radical&border_radius=10" />
+  <img height="180em" src="assets/top-langs.svg" alt="ExeDevCentral Most Used Languages" />
 </div>
 
 ---
@@ -104,7 +104,7 @@ Full-Stack Solutions Engineer & Software Architect specializing in **fault-toler
 </div>
 
 <div align="center">
-  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FExeDevCentral&label=Visitors&countColor=%23ff6b6b" />
+  <img src="https://komarev.com/ghpvc/?username=ExeDevCentral&label=Visitors&color=fe428e&style=for-the-badge" alt="Profile Visitors" />
   <br /><br />
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,6&height=100&section=footer&animation=twinkle" />
   <p align="center">

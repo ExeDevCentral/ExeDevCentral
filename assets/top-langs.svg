@@ -1,0 +1,19 @@
+<svg width="400" height="195" viewBox="0 0 400 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="langsTitle">
+  <title id="langsTitle">Most Used Languages</title>
+  <style>
+    .header { font: 700 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+    .lang-name { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    .lang-pct { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8d847; }
+  </style>
+  <defs>
+    <clipPath id="barClip">
+      <rect x="25" y="0" width="350" height="8" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" rx="10" width="399" height="194" fill="#141321" stroke="#e4e2e2" stroke-opacity="0.7"/>
+  <text x="25" y="34" class="header">Most Used Languages</text>
+  <g transform="translate(0, 50)" clip-path="url(#barClip)">
+    <rect x="25.00" y="0" width="150.73" height="8" fill="#555555"/><rect x="175.73" y="0" width="81.36" height="8" fill="#3178c6"/><rect x="257.09" y="0" width="71.08" height="8" fill="#e34c26"/><rect x="328.17" y="0" width="29.03" height="8" fill="#f1e05a"/><rect x="357.20" y="0" width="6.86" height="8" fill="#663399"/><rect x="364.05" y="0" width="5.07" height="8" fill="#3572A5"/><rect x="369.12" y="0" width="3.52" height="8" fill="#89e051"/><rect x="372.64" y="0" width="2.36" height="8" fill="#336790"/>
+  </g>
+  <g transform="translate(25, 86)"><circle cx="5" cy="-4" r="5" fill="#555555"/><text x="16" y="0" class="lang-name">C <tspan class="lang-pct">43.07%</tspan></text></g><g transform="translate(207, 86)"><circle cx="5" cy="-4" r="5" fill="#3178c6"/><text x="16" y="0" class="lang-name">TypeScript <tspan class="lang-pct">23.25%</tspan></text></g><g transform="translate(25, 110)"><circle cx="5" cy="-4" r="5" fill="#e34c26"/><text x="16" y="0" class="lang-name">HTML <tspan class="lang-pct">20.31%</tspan></text></g><g transform="translate(207, 110)"><circle cx="5" cy="-4" r="5" fill="#f1e05a"/><text x="16" y="0" class="lang-name">JavaScript <tspan class="lang-pct">8.29%</tspan></text></g><g transform="translate(25, 134)"><circle cx="5" cy="-4" r="5" fill="#663399"/><text x="16" y="0" class="lang-name">CSS <tspan class="lang-pct">1.96%</tspan></text></g><g transform="translate(207, 134)"><circle cx="5" cy="-4" r="5" fill="#3572A5"/><text x="16" y="0" class="lang-name">Python <tspan class="lang-pct">1.45%</tspan></text></g><g transform="translate(25, 158)"><circle cx="5" cy="-4" r="5" fill="#89e051"/><text x="16" y="0" class="lang-name">Shell <tspan class="lang-pct">1.01%</tspan></text></g><g transform="translate(207, 158)"><circle cx="5" cy="-4" r="5" fill="#336790"/><text x="16" y="0" class="lang-name">PLpgSQL <tspan class="lang-pct">0.67%</tspan></text></g>
+</svg>
